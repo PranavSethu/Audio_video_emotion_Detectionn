@@ -1,0 +1,40 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;  /* Ensure the app covers at least the full height of the viewport */
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+input[type="file"], button {
+  margin: 10px;
+  padding: 5px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  margin-top: 20px;
+}
+
+.loading {
+  font-size: 24px;
+  color: #FFA500;  /* Orange color for visibility */
+}
+
+video {
+  width: 100px;  /* Width similar to standard YouTube video frame */
+  height: 315px;  /* Height similar to standard YouTube video frame */
+  margin-top: 20px;
+  border: 1px solid #fff;
+}
